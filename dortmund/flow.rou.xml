@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="flow_207536847" type="car" begin="2" period="2" number="28" from="41211484#1">
+        <stop parkingArea="207536847" duration="3600"/>
+    </flow>
+    <flow id="flow_316775573" type="car" begin="2" period="2" number="20" from="41211484#1">
+        <stop parkingArea="316775573" duration="3600"/>
+    </flow>
+    <flow id="flow_357916696" type="car" begin="2" period="2" number="14" from="24892132#0">
+        <stop parkingArea="357916696" duration="3600"/>
+    </flow>
+    <flow id="flow_357918241" type="car" begin="2" period="2" number="38" from="153950038#0">
+        <stop parkingArea="357918241" duration="3600"/>
+    </flow>
+    <flow id="flow_357972918" type="car" begin="2" period="2" number="50" from="41211484#1">
+        <stop parkingArea="357972918" duration="3600"/>
+    </flow>
+    <flow id="flow_369680305" type="car" begin="2" period="2" number="44" from="38261112#2">
+        <stop parkingArea="369680305" duration="3600"/>
+    </flow>
+    <flow id="flow_387186273" type="car" begin="2" period="2" number="44" from="316255056#0">
+        <stop parkingArea="387186273" duration="3600"/>
+    </flow>
+    <flow id="flow_671847217" type="car" begin="2" period="2" number="30" from="38261112#2">
+        <stop parkingArea="671847217" duration="3600"/>
+    </flow>
+    <flow id="flow_671847233" type="car" begin="2" period="2" number="38" from="90042841#0">
+        <stop parkingArea="671847233" duration="3600"/>
+    </flow>
+    <flow id="flow_677365940" type="car" begin="2" period="2" number="10" from="429356220#0">
+        <stop parkingArea="677365940" duration="3600"/>
+    </flow>
+    <flow id="flow_679645527" type="car" begin="2" period="2" number="18" from="1080571755#0">
+        <stop parkingArea="679645527" duration="3600"/>
+    </flow>
+    <flow id="flow_679645541" type="car" begin="2" period="2" number="8" from="24892132#0">
+        <stop parkingArea="679645541" duration="3600"/>
+    </flow>
+    <flow id="flow_683263078" type="car" begin="2" period="2" number="30" from="429356220#0">
+        <stop parkingArea="683263078" duration="3600"/>
+    </flow>
+    <flow id="flow_697236821" type="car" begin="2" period="2" number="22" from="222427536#0">
+        <stop parkingArea="697236821" duration="3600"/>
+    </flow>
+    <flow id="flow_698825602" type="car" begin="2" period="2" number="44" from="41211484#1">
+        <stop parkingArea="698825602" duration="3600"/>
+    </flow>
+    <flow id="flow_710755133" type="car" begin="2" period="2" number="28" from="222427536#0">
+        <stop parkingArea="710755133" duration="3600"/>
+    </flow>
+    <flow id="flow_710907592" type="car" begin="2" period="2" number="46" from="429356220#0">
+        <stop parkingArea="710907592" duration="3600"/>
+    </flow>
+    <flow id="flow_710907597" type="car" begin="2" period="2" number="18" from="90042841#0">
+        <stop parkingArea="710907597" duration="3600"/>
+    </flow>
+    <flow id="flow_730863171" type="car" begin="2" period="2" number="2" from="153950038#0">
+        <stop parkingArea="730863171" duration="3600"/>
+    </flow>
+    <flow id="flow_1435025176" type="car" begin="2" period="2" number="26" from="1080571755#0">
+        <stop parkingArea="1435025176" duration="3600"/>
+    </flow>
+    <flow id="flow_1438389277" type="car" begin="2" period="2" number="14" from="24892132#0">
+        <stop parkingArea="1438389277" duration="3600"/>
+    </flow>
+    <flow id="flow_2029936602" type="car" begin="2" period="2" number="48" from="24892132#0">
+        <stop parkingArea="2029936602" duration="3600"/>
+    </flow>
+    <flow id="flow_2634087844" type="car" begin="2" period="2" number="6" from="316255056#0">
+        <stop parkingArea="2634087844" duration="3600"/>
+    </flow>
+    <flow id="flow_2634087847" type="car" begin="2" period="2" number="50" from="771368477#0">
+        <stop parkingArea="2634087847" duration="3600"/>
+    </flow>
+    <flow id="flow_2711712831" type="car" begin="2" period="2" number="46" from="222427536#0">
+        <stop parkingArea="2711712831" duration="3600"/>
+    </flow>
+    <flow id="flow_3695727291" type="car" begin="2" period="2" number="24" from="222427536#0">
+        <stop parkingArea="3695727291" duration="3600"/>
+    </flow>
+    <flow id="flow_3695729527" type="car" begin="2" period="2" number="26" from="90042841#0">
+        <stop parkingArea="3695729527" duration="3600"/>
+    </flow>
+    <flow id="flow_3891079338" type="car" begin="2" period="2" number="42" from="24892132#0">
+        <stop parkingArea="3891079338" duration="3600"/>
+    </flow>
+    <flow id="flow_3891079340" type="car" begin="2" period="2" number="38" from="90042841#0">
+        <stop parkingArea="3891079340" duration="3600"/>
+    </flow>
+    <flow id="flow_3905282357" type="car" begin="2" period="2" number="42" from="41211484#1">
+        <stop parkingArea="3905282357" duration="3600"/>
+    </flow>
+    <flow id="flow_4662964930" type="car" begin="2" period="2" number="50" from="41211484#1">
+        <stop parkingArea="4662964930" duration="3600"/>
+    </flow>
+    <flow id="flow_4839983111" type="car" begin="2" period="2" number="40" from="38261112#2">
+        <stop parkingArea="4839983111" duration="3600"/>
+    </flow>
+    <flow id="flow_5006715813" type="car" begin="2" period="2" number="12" from="1080571755#0">
+        <stop parkingArea="5006715813" duration="3600"/>
+    </flow>
+    <flow id="flow_5570538880" type="car" begin="2" period="2" number="36" from="30133975#0">
+        <stop parkingArea="5570538880" duration="3600"/>
+    </flow>
+    <flow id="flow_6293406937" type="car" begin="2" period="2" number="28" from="90042841#0">
+        <stop parkingArea="6293406937" duration="3600"/>
+    </flow>
+    <flow id="flow_6293406945" type="car" begin="2" period="2" number="28" from="222427536#0">
+        <stop parkingArea="6293406945" duration="3600"/>
+    </flow>
+    <flow id="flow_6293583477" type="car" begin="2" period="2" number="46" from="38261112#2">
+        <stop parkingArea="6293583477" duration="3600"/>
+    </flow>
+    <flow id="flow_6318127723" type="car" begin="2" period="2" number="20" from="30133975#0">
+        <stop parkingArea="6318127723" duration="3600"/>
+    </flow>
+    <flow id="flow_6356230285" type="car" begin="2" period="2" number="16" from="38261112#2">
+        <stop parkingArea="6356230285" duration="3600"/>
+    </flow>
+    <flow id="flow_6489283863" type="car" begin="2" period="2" number="24" from="30133975#0">
+        <stop parkingArea="6489283863" duration="3600"/>
+    </flow>
+    <flow id="flow_6708081023" type="car" begin="2" period="2" number="36" from="30133975#0">
+        <stop parkingArea="6708081023" duration="3600"/>
+    </flow>
+    <flow id="flow_6708081024" type="car" begin="2" period="2" number="8" from="37519795#0">
+        <stop parkingArea="6708081024" duration="3600"/>
+    </flow>
+    <flow id="flow_6866515426" type="car" begin="2" period="2" number="26" from="222427536#0">
+        <stop parkingArea="6866515426" duration="3600"/>
+    </flow>
+    <flow id="flow_6866515436" type="car" begin="2" period="2" number="28" from="24892132#0">
+        <stop parkingArea="6866515436" duration="3600"/>
+    </flow>
+    <flow id="flow_6953905901" type="car" begin="2" period="2" number="20" from="316255056#0">
+        <stop parkingArea="6953905901" duration="3600"/>
+    </flow>
+    <flow id="flow_8838651727" type="car" begin="2" period="2" number="44" from="30133975#0">
+        <stop parkingArea="8838651727" duration="3600"/>
+    </flow>
+    <flow id="flow_8838651728" type="car" begin="2" period="2" number="30" from="1080571755#0">
+        <stop parkingArea="8838651728" duration="3600"/>
+    </flow>
+    <flow id="flow_9009659105" type="car" begin="2" period="2" number="12" from="30133975#0">
+        <stop parkingArea="9009659105" duration="3600"/>
+    </flow>
+    <flow id="flow_9217552163" type="car" begin="2" period="2" number="46" from="216862003#0">
+        <stop parkingArea="9217552163" duration="3600"/>
+    </flow>
+    <flow id="flow_9217552165" type="car" begin="2" period="2" number="8" from="41211484#1">
+        <stop parkingArea="9217552165" duration="3600"/>
+    </flow>
+    <flow id="flow_9704458232" type="car" begin="2" period="2" number="14" from="38261112#2">
+        <stop parkingArea="9704458232" duration="3600"/>
+    </flow>
+    <flow id="flow_9959223958" type="car" begin="2" period="2" number="40" from="316255056#0">
+        <stop parkingArea="9959223958" duration="3600"/>
+    </flow>
+    <flow id="flow_10152065052" type="car" begin="2" period="2" number="50" from="153950038#0">
+        <stop parkingArea="10152065052" duration="3600"/>
+    </flow>
+    <flow id="flow_10152091453" type="car" begin="2" period="2" number="22" from="429356220#0">
+        <stop parkingArea="10152091453" duration="3600"/>
+    </flow>
+    <flow id="flow_10543728919" type="car" begin="2" period="2" number="30" from="37519795#0">
+        <stop parkingArea="10543728919" duration="3600"/>
+    </flow>
+    <flow id="flow_10785794282" type="car" begin="2" period="2" number="12" from="153950038#0">
+        <stop parkingArea="10785794282" duration="3600"/>
+    </flow>
+    <flow id="flow_10785794283" type="car" begin="2" period="2" number="22" from="24892132#0">
+        <stop parkingArea="10785794283" duration="3600"/>
+    </flow>
+    <flow id="flow_10900394934" type="car" begin="2" period="2" number="42" from="24892132#0">
+        <stop parkingArea="10900394934" duration="3600"/>
+    </flow>
+    <flow id="flow_11258990911" type="car" begin="2" period="2" number="38" from="316255056#0">
+        <stop parkingArea="11258990911" duration="3600"/>
+    </flow>
+    <flow id="flow_11372294143" type="car" begin="2" period="2" number="46" from="429356220#0">
+        <stop parkingArea="11372294143" duration="3600"/>
+    </flow>
+    <flow id="flow_11372294147" type="car" begin="2" period="2" number="14" from="429356220#0">
+        <stop parkingArea="11372294147" duration="3600"/>
+    </flow>
+    <flow id="flow_11390832190" type="car" begin="2" period="2" number="40" from="216862003#0">
+        <stop parkingArea="11390832190" duration="3600"/>
+    </flow>
+    <flow id="flow_11390832192" type="car" begin="2" period="2" number="14" from="222427536#0">
+        <stop parkingArea="11390832192" duration="3600"/>
+    </flow>
+    <flow id="flow_11419078672" type="car" begin="2" period="2" number="42" from="38261112#2">
+        <stop parkingArea="11419078672" duration="3600"/>
+    </flow>
+    <flow id="flow_11803573687" type="car" begin="2" period="2" number="42" from="222427536#0">
+        <stop parkingArea="11803573687" duration="3600"/>
+    </flow>
+</routes>
