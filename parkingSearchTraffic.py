@@ -135,7 +135,7 @@ def main(net, routes):
     print(walk_dist)
 
     # Export results to XML
-    output_file = "/output/flow_results.xml"
+    output_file = "./output/flow_results.xml"
     write_results_to_xml(flow_results, total_summary, output_file)
     print(f"Results exported to {output_file}")
 
