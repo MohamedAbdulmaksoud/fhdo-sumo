@@ -6,13 +6,14 @@ import xml.etree.ElementTree as ET
 import argparse
 
 
-def set_visibility(file, all_false=False):
+def set_visibility(file, all_false=False, all_true=False):
     """
     Sets the visibility attribute for parkingAreaReroute elements in an XML file.
 
     Parameters:
     file (str): The path to the XML file to modify.
-    all_false (bool): If True, sets all visibility attributes to 'false'. If False, sets only the first visibility to 'true' and the rest to 'false' for each rerouter.
+    all_false (bool): If True, sets all visibility attributes to 'false'.
+    all_true (bool): If True, sets all visibility attributes to 'true'.
     """
     # Parse the XML file
     tree = ET.parse(file)
@@ -25,19 +26,22 @@ def set_visibility(file, all_false=False):
 
     # Iterate over all rerouter elements
     for rerouter in root.findall('rerouter'):
-        first_parking_set = False
-        # Iterate over all parkingAreaReroute elements within the rerouter
-        for parkingAreaReroute in rerouter.findall('interval/parkingAreaReroute'):
-            if all_false:
-                # Set all visibility attributes to false
+        if all_true:
+            # Set all parkingAreaReroute elements to true
+            for parkingAreaReroute in rerouter.findall('interval/parkingAreaReroute'):
+                parkingAreaReroute.set('visible', 'true')
+        elif all_false:
+            # Set all parkingAreaReroute elements to false
+            for parkingAreaReroute in rerouter.findall('interval/parkingAreaReroute'):
                 parkingAreaReroute.set('visible', 'false')
-            else:
+        else:
+            # Default behavior: Set the first parkingAreaReroute visible to true and others to false
+            first_parking_set = False
+            for parkingAreaReroute in rerouter.findall('interval/parkingAreaReroute'):
                 if not first_parking_set:
-                    # Set the first parkingAreaReroute visible to true
                     parkingAreaReroute.set('visible', 'true')
                     first_parking_set = True
                 else:
-                    # Set all subsequent visibility attributes to false
                     parkingAreaReroute.set('visible', 'false')
 
     # Add namespaces to the root element
@@ -53,6 +57,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Set visibility of parkingAreaReroute elements in XML file.")
     parser.add_argument("file", help="The XML file to modify.")
     parser.add_argument("--all-false", action="store_true", help="Set all visibility attributes to false.")
+    parser.add_argument("--all-true", action="store_true", help="Set all visibility attributes to true.")
 
     args = parser.parse_args()
-    set_visibility(args.file, args.all_false)
+
+    # Ensure only one visibility flag is used at a time
+    if args.all_false and args.all_true:
+        print("Error: --all-false and --all-true cannot be used together.")
+        sys.exit(1)
+
+    if args.all_false or args.all_true:
+        set_visibility(args.file, all_false=args.all_false, all_true=args.all_true)
+    else:
+        set_visibility(args.file)
