@@ -105,12 +105,12 @@ def main(net, routes):
             flow_results[flow_id]["total_distance"] += length
             total_summary["total_distance"] += length
 
-            start_time = vehicle.stop[0].started
-            if start_time is not None:
-                elapsed_time = sumolib.miscutils.parseTime(start_time) - sumolib.miscutils.parseTime(replace_time)
-                time.add(elapsed_time, vehicle.id)
-                flow_results[flow_id]["total_time"] += elapsed_time
-                total_summary["total_time"] += elapsed_time
+            depart_time = float(vehicle.depart)
+            arrival_time = float(vehicle.arrival)
+            elapsed_time = arrival_time - depart_time
+            time.add(elapsed_time, vehicle.id)
+            flow_results[flow_id]["total_time"] += elapsed_time
+            total_summary["total_time"] += elapsed_time
 
             if extra_route:
                 walk, _ = net.getShortestPath(net.getEdge(extra_route[-1]), net.getEdge(extra_route[0]),
