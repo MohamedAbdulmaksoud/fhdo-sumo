@@ -1,0 +1,464 @@
+<Results>
+    <Summary>
+        <TotalVehicles>1920</TotalVehicles>
+        <TotalDistance>1884443.0799999994</TotalDistance>
+        <TotalTime>6798950.0</TotalTime>
+        <TotalWalkingDistance>171880.1200000002</TotalWalkingDistance>
+        <NotArrived>284</NotArrived>
+    </Summary>
+    <Flow id="flow_10152091453">
+        <TotalVehicles>22</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>10</NotArrived>
+    </Flow>
+    <Flow id="flow_10152065052">
+        <TotalVehicles>50</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>10</NotArrived>
+    </Flow>
+    <Flow id="flow_3891079338">
+        <TotalVehicles>42</TotalVehicles>
+        <TotalDistance>253919.95000000016</TotalDistance>
+        <TotalTime>422452.0</TotalTime>
+        <TotalWalkingDistance>17422.19</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_9217552163">
+        <TotalVehicles>46</TotalVehicles>
+        <TotalDistance>15404.960000000003</TotalDistance>
+        <TotalTime>86548.0</TotalTime>
+        <TotalWalkingDistance>3990.8199999999997</TotalWalkingDistance>
+        <NotArrived>5</NotArrived>
+    </Flow>
+    <Flow id="flow_5006715813">
+        <TotalVehicles>12</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>2</NotArrived>
+    </Flow>
+    <Flow id="flow_9217552165">
+        <TotalVehicles>8</TotalVehicles>
+        <TotalDistance>3572.96</TotalDistance>
+        <TotalTime>23899.0</TotalTime>
+        <TotalWalkingDistance>727.48</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_6293406945">
+        <TotalVehicles>28</TotalVehicles>
+        <TotalDistance>3901.16</TotalDistance>
+        <TotalTime>73996.0</TotalTime>
+        <TotalWalkingDistance>1752.77</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_3891079340">
+        <TotalVehicles>38</TotalVehicles>
+        <TotalDistance>68183.82999999999</TotalDistance>
+        <TotalTime>145529.0</TotalTime>
+        <TotalWalkingDistance>6198.530000000002</TotalWalkingDistance>
+        <NotArrived>5</NotArrived>
+    </Flow>
+    <Flow id="flow_2634087847">
+        <TotalVehicles>50</TotalVehicles>
+        <TotalDistance>58862.04999999999</TotalDistance>
+        <TotalTime>155833.0</TotalTime>
+        <TotalWalkingDistance>2411.639999999999</TotalWalkingDistance>
+        <NotArrived>3</NotArrived>
+    </Flow>
+    <Flow id="flow_11803573687">
+        <TotalVehicles>42</TotalVehicles>
+        <TotalDistance>17475.810000000005</TotalDistance>
+        <TotalTime>129301.0</TotalTime>
+        <TotalWalkingDistance>1333.1199999999994</TotalWalkingDistance>
+        <NotArrived>11</NotArrived>
+    </Flow>
+    <Flow id="flow_671847233">
+        <TotalVehicles>38</TotalVehicles>
+        <TotalDistance>2459.2799999999997</TotalDistance>
+        <TotalTime>74008.0</TotalTime>
+        <TotalWalkingDistance>391.56000000000006</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_4662964930">
+        <TotalVehicles>50</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>188854.0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>12</NotArrived>
+    </Flow>
+    <Flow id="flow_10900394934">
+        <TotalVehicles>42</TotalVehicles>
+        <TotalDistance>141076.52</TotalDistance>
+        <TotalTime>335564.0</TotalTime>
+        <TotalWalkingDistance>10330.71</TotalWalkingDistance>
+        <NotArrived>3</NotArrived>
+    </Flow>
+    <Flow id="flow_6318127723">
+        <TotalVehicles>20</TotalVehicles>
+        <TotalDistance>5377.56</TotalDistance>
+        <TotalTime>68684.0</TotalTime>
+        <TotalWalkingDistance>374.93999999999994</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_671847217">
+        <TotalVehicles>30</TotalVehicles>
+        <TotalDistance>4281.100000000002</TotalDistance>
+        <TotalTime>68925.0</TotalTime>
+        <TotalWalkingDistance>3537.500000000002</TotalWalkingDistance>
+        <NotArrived>2</NotArrived>
+    </Flow>
+    <Flow id="flow_6953905901">
+        <TotalVehicles>20</TotalVehicles>
+        <TotalDistance>5509.960000000001</TotalDistance>
+        <TotalTime>40175.0</TotalTime>
+        <TotalWalkingDistance>1226.8000000000004</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_3695727291">
+        <TotalVehicles>24</TotalVehicles>
+        <TotalDistance>23329.409999999996</TotalDistance>
+        <TotalTime>76089.0</TotalTime>
+        <TotalWalkingDistance>987.0</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_710907592">
+        <TotalVehicles>46</TotalVehicles>
+        <TotalDistance>25684.040000000005</TotalDistance>
+        <TotalTime>156167.0</TotalTime>
+        <TotalWalkingDistance>1913.6100000000004</TotalWalkingDistance>
+        <NotArrived>19</NotArrived>
+    </Flow>
+    <Flow id="flow_683263078">
+        <TotalVehicles>30</TotalVehicles>
+        <TotalDistance>14546.18</TotalDistance>
+        <TotalTime>79075.0</TotalTime>
+        <TotalWalkingDistance>2721.3200000000006</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_2634087844">
+        <TotalVehicles>6</TotalVehicles>
+        <TotalDistance>1592.28</TotalDistance>
+        <TotalTime>11645.0</TotalTime>
+        <TotalWalkingDistance>328.86</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_11390832192">
+        <TotalVehicles>14</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>26710.0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_3695729527">
+        <TotalVehicles>26</TotalVehicles>
+        <TotalDistance>42458.68</TotalDistance>
+        <TotalTime>81642.0</TotalTime>
+        <TotalWalkingDistance>987.0</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_710907597">
+        <TotalVehicles>18</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>42411.0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_11258990911">
+        <TotalVehicles>38</TotalVehicles>
+        <TotalDistance>10227.589999999998</TotalDistance>
+        <TotalTime>73611.0</TotalTime>
+        <TotalWalkingDistance>1815.0599999999995</TotalWalkingDistance>
+        <NotArrived>6</NotArrived>
+    </Flow>
+    <Flow id="flow_6866515426">
+        <TotalVehicles>26</TotalVehicles>
+        <TotalDistance>5104.170000000001</TotalDistance>
+        <TotalTime>51837.0</TotalTime>
+        <TotalWalkingDistance>867.6600000000001</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_9704458232">
+        <TotalVehicles>14</TotalVehicles>
+        <TotalDistance>7577.5199999999995</TotalDistance>
+        <TotalTime>43134.0</TotalTime>
+        <TotalWalkingDistance>3585.3300000000004</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_11390832190">
+        <TotalVehicles>40</TotalVehicles>
+        <TotalDistance>24528.020000000004</TotalDistance>
+        <TotalTime>166879.0</TotalTime>
+        <TotalWalkingDistance>1707.1800000000003</TotalWalkingDistance>
+        <NotArrived>11</NotArrived>
+    </Flow>
+    <Flow id="flow_730863171">
+        <TotalVehicles>2</TotalVehicles>
+        <TotalDistance>1155.6299999999999</TotalDistance>
+        <TotalTime>9565.0</TotalTime>
+        <TotalWalkingDistance>182.45</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_387186273">
+        <TotalVehicles>44</TotalVehicles>
+        <TotalDistance>19876.500000000004</TotalDistance>
+        <TotalTime>129254.0</TotalTime>
+        <TotalWalkingDistance>1731.15</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_369680305">
+        <TotalVehicles>44</TotalVehicles>
+        <TotalDistance>16625.78</TotalDistance>
+        <TotalTime>135279.0</TotalTime>
+        <TotalWalkingDistance>3706.8399999999992</TotalWalkingDistance>
+        <NotArrived>3</NotArrived>
+    </Flow>
+    <Flow id="flow_6489283863">
+        <TotalVehicles>24</TotalVehicles>
+        <TotalDistance>11178.72</TotalDistance>
+        <TotalTime>112302.0</TotalTime>
+        <TotalWalkingDistance>904.56</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_5570538880">
+        <TotalVehicles>36</TotalVehicles>
+        <TotalDistance>127984.79999999999</TotalDistance>
+        <TotalTime>166314.0</TotalTime>
+        <TotalWalkingDistance>4713.120000000002</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_6293406937">
+        <TotalVehicles>28</TotalVehicles>
+        <TotalDistance>2845.0899999999997</TotalDistance>
+        <TotalTime>78205.0</TotalTime>
+        <TotalWalkingDistance>1464.05</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_4839983111">
+        <TotalVehicles>40</TotalVehicles>
+        <TotalDistance>69865.80000000002</TotalDistance>
+        <TotalTime>174723.0</TotalTime>
+        <TotalWalkingDistance>2324.379999999999</TotalWalkingDistance>
+        <NotArrived>3</NotArrived>
+    </Flow>
+    <Flow id="flow_10543728919">
+        <TotalVehicles>30</TotalVehicles>
+        <TotalDistance>14307.820000000002</TotalDistance>
+        <TotalTime>69609.0</TotalTime>
+        <TotalWalkingDistance>1284.66</TotalWalkingDistance>
+        <NotArrived>6</NotArrived>
+    </Flow>
+    <Flow id="flow_11372294143">
+        <TotalVehicles>46</TotalVehicles>
+        <TotalDistance>10419.009999999998</TotalDistance>
+        <TotalTime>84760.0</TotalTime>
+        <TotalWalkingDistance>1924.87</TotalWalkingDistance>
+        <NotArrived>24</NotArrived>
+    </Flow>
+    <Flow id="flow_6293583477">
+        <TotalVehicles>46</TotalVehicles>
+        <TotalDistance>182614.56000000003</TotalDistance>
+        <TotalTime>274354.0</TotalTime>
+        <TotalWalkingDistance>7048.159999999999</TotalWalkingDistance>
+        <NotArrived>2</NotArrived>
+    </Flow>
+    <Flow id="flow_357918241">
+        <TotalVehicles>38</TotalVehicles>
+        <TotalDistance>36397.719999999994</TotalDistance>
+        <TotalTime>94202.0</TotalTime>
+        <TotalWalkingDistance>1923.56</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_1438389277">
+        <TotalVehicles>14</TotalVehicles>
+        <TotalDistance>3255.29</TotalDistance>
+        <TotalTime>18055.0</TotalTime>
+        <TotalWalkingDistance>1160.58</TotalWalkingDistance>
+        <NotArrived>5</NotArrived>
+    </Flow>
+    <Flow id="flow_8838651727">
+        <TotalVehicles>44</TotalVehicles>
+        <TotalDistance>39911.849999999984</TotalDistance>
+        <TotalTime>226310.0</TotalTime>
+        <TotalWalkingDistance>1361.2199999999991</TotalWalkingDistance>
+        <NotArrived>16</NotArrived>
+    </Flow>
+    <Flow id="flow_6356230285">
+        <TotalVehicles>16</TotalVehicles>
+        <TotalDistance>65296.43999999999</TotalDistance>
+        <TotalTime>104138.0</TotalTime>
+        <TotalWalkingDistance>2836.7799999999997</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_207536847">
+        <TotalVehicles>28</TotalVehicles>
+        <TotalDistance>47744.77</TotalDistance>
+        <TotalTime>249863.0</TotalTime>
+        <TotalWalkingDistance>2658.689999999999</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_357972918">
+        <TotalVehicles>50</TotalVehicles>
+        <TotalDistance>24004.850000000006</TotalDistance>
+        <TotalTime>281271.0</TotalTime>
+        <TotalWalkingDistance>10262.700000000003</TotalWalkingDistance>
+        <NotArrived>13</NotArrived>
+    </Flow>
+    <Flow id="flow_357916696">
+        <TotalVehicles>14</TotalVehicles>
+        <TotalDistance>14011.079999999996</TotalDistance>
+        <TotalTime>99826.0</TotalTime>
+        <TotalWalkingDistance>1807.8800000000006</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_679645541">
+        <TotalVehicles>8</TotalVehicles>
+        <TotalDistance>4145.88</TotalDistance>
+        <TotalTime>50388.0</TotalTime>
+        <TotalWalkingDistance>497.82000000000005</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_1435025176">
+        <TotalVehicles>26</TotalVehicles>
+        <TotalDistance>54.489999999999995</TotalDistance>
+        <TotalTime>16047.0</TotalTime>
+        <TotalWalkingDistance>53.93</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_9959223958">
+        <TotalVehicles>40</TotalVehicles>
+        <TotalDistance>21180.960000000003</TotalDistance>
+        <TotalTime>100788.0</TotalTime>
+        <TotalWalkingDistance>1067.28</TotalWalkingDistance>
+        <NotArrived>12</NotArrived>
+    </Flow>
+    <Flow id="flow_2029936602">
+        <TotalVehicles>48</TotalVehicles>
+        <TotalDistance>5016.94</TotalDistance>
+        <TotalTime>90151.0</TotalTime>
+        <TotalWalkingDistance>2799.9299999999994</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_679645527">
+        <TotalVehicles>18</TotalVehicles>
+        <TotalDistance>486.03999999999996</TotalDistance>
+        <TotalTime>9809.0</TotalTime>
+        <TotalWalkingDistance>129.21</TotalWalkingDistance>
+        <NotArrived>4</NotArrived>
+    </Flow>
+    <Flow id="flow_3905282357">
+        <TotalVehicles>42</TotalVehicles>
+        <TotalDistance>30176.989999999994</TotalDistance>
+        <TotalTime>204318.0</TotalTime>
+        <TotalWalkingDistance>8584.99</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_2711712831">
+        <TotalVehicles>46</TotalVehicles>
+        <TotalDistance>81746.77999999998</TotalDistance>
+        <TotalTime>161332.0</TotalTime>
+        <TotalWalkingDistance>2153.159999999999</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_8838651728">
+        <TotalVehicles>30</TotalVehicles>
+        <TotalDistance>0</TotalDistance>
+        <TotalTime>0</TotalTime>
+        <TotalWalkingDistance>0</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_9009659105">
+        <TotalVehicles>12</TotalVehicles>
+        <TotalDistance>3149.9399999999996</TotalDistance>
+        <TotalTime>31132.0</TotalTime>
+        <TotalWalkingDistance>1407.18</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_6708081023">
+        <TotalVehicles>36</TotalVehicles>
+        <TotalDistance>18064.300000000003</TotalDistance>
+        <TotalTime>63297.0</TotalTime>
+        <TotalWalkingDistance>1479.2000000000003</TotalWalkingDistance>
+        <NotArrived>23</NotArrived>
+    </Flow>
+    <Flow id="flow_6708081024">
+        <TotalVehicles>8</TotalVehicles>
+        <TotalDistance>1536.5700000000002</TotalDistance>
+        <TotalTime>19948.0</TotalTime>
+        <TotalWalkingDistance>1536.5700000000002</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_11419078672">
+        <TotalVehicles>42</TotalVehicles>
+        <TotalDistance>62612.939999999995</TotalDistance>
+        <TotalTime>134311.0</TotalTime>
+        <TotalWalkingDistance>2606.52</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_10785794283">
+        <TotalVehicles>22</TotalVehicles>
+        <TotalDistance>56834.76</TotalDistance>
+        <TotalTime>181652.0</TotalTime>
+        <TotalWalkingDistance>3719.879999999999</TotalWalkingDistance>
+        <NotArrived>2</NotArrived>
+    </Flow>
+    <Flow id="flow_10785794282">
+        <TotalVehicles>12</TotalVehicles>
+        <TotalDistance>3149.9399999999996</TotalDistance>
+        <TotalTime>31555.0</TotalTime>
+        <TotalWalkingDistance>1239.96</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_697236821">
+        <TotalVehicles>22</TotalVehicles>
+        <TotalDistance>3041.7400000000007</TotalDistance>
+        <TotalTime>39695.0</TotalTime>
+        <TotalWalkingDistance>1499.52</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_698825602">
+        <TotalVehicles>44</TotalVehicles>
+        <TotalDistance>69282.90000000001</TotalDistance>
+        <TotalTime>248913.0</TotalTime>
+        <TotalWalkingDistance>21344.22000000001</TotalWalkingDistance>
+        <NotArrived>3</NotArrived>
+    </Flow>
+    <Flow id="flow_710755133">
+        <TotalVehicles>28</TotalVehicles>
+        <TotalDistance>23071.100000000002</TotalDistance>
+        <TotalTime>99864.0</TotalTime>
+        <TotalWalkingDistance>2120.3999999999996</TotalWalkingDistance>
+        <NotArrived>7</NotArrived>
+    </Flow>
+    <Flow id="flow_677365940">
+        <TotalVehicles>10</TotalVehicles>
+        <TotalDistance>15540.55</TotalDistance>
+        <TotalTime>36799.0</TotalTime>
+        <TotalWalkingDistance>668.04</TotalWalkingDistance>
+        <NotArrived>1</NotArrived>
+    </Flow>
+    <Flow id="flow_11372294147">
+        <TotalVehicles>14</TotalVehicles>
+        <TotalDistance>5295.98</TotalDistance>
+        <TotalTime>58423.0</TotalTime>
+        <TotalWalkingDistance>1686.5800000000002</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_316775573">
+        <TotalVehicles>20</TotalVehicles>
+        <TotalDistance>39986.58000000001</TotalDistance>
+        <TotalTime>182011.0</TotalTime>
+        <TotalWalkingDistance>2346.88</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+    <Flow id="flow_6866515436">
+        <TotalVehicles>28</TotalVehicles>
+        <TotalDistance>17498.960000000003</TotalDistance>
+        <TotalTime>107519.0</TotalTime>
+        <TotalWalkingDistance>3032.1199999999994</TotalWalkingDistance>
+        <NotArrived>0</NotArrived>
+    </Flow>
+</Results>
