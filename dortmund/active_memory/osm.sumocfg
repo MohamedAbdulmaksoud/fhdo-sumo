@@ -6,9 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml"/>
-        <route-files value="flow.rou.xml"/>
-        <additional-files value="osm.poly.xml.gz,parkings.add.xml,parking.rerouter.add.xml,parking_config.add.xml"/>
+        <net-file value="../osm.net.xml"/>
+        <route-files value="../flow.rou.xml"/>
+        <additional-files value="../osm.poly.xml.gz,../parkings.add.xml,parking.rerouter.add.xml,parking_config.add.xml"/>
     </input>
 
     <processing>
@@ -27,7 +27,7 @@
     </report>
 
     <gui_only>
-        <gui-settings-file value="sim.view.xml"/>
+        <gui-settings-file value="../sim.view.xml"/>
     </gui_only>
 
 </configuration>
