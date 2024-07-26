@@ -4,14 +4,16 @@
 
 import xml.etree.ElementTree as ET
 import argparse
+import sys
 
 
-def set_visibility(file, all_false=False, all_true=False):
+def set_visibility(file, true_count=None, all_false=False, all_true=False):
     """
     Sets the visibility attribute for parkingAreaReroute elements in an XML file.
 
     Parameters:
     file (str): The path to the XML file to modify.
+    true_count (int): Number of parkingAreaReroute elements to set to 'true' for each rerouter.
     all_false (bool): If True, sets all visibility attributes to 'false'.
     all_true (bool): If True, sets all visibility attributes to 'true'.
     """
@@ -34,6 +36,14 @@ def set_visibility(file, all_false=False, all_true=False):
             # Set all parkingAreaReroute elements to false
             for parkingAreaReroute in rerouter.findall('interval/parkingAreaReroute'):
                 parkingAreaReroute.set('visible', 'false')
+        elif true_count is not None:
+            # Set the first 'true_count' parkingAreaReroute elements to true
+            parkingAreaReroutes = rerouter.findall('interval/parkingAreaReroute')
+            for i, parkingAreaReroute in enumerate(parkingAreaReroutes):
+                if i < true_count:
+                    parkingAreaReroute.set('visible', 'true')
+                else:
+                    parkingAreaReroute.set('visible', 'false')
         else:
             # Default behavior: Set the first parkingAreaReroute visible to true and others to false
             first_parking_set = False
@@ -56,6 +66,8 @@ def set_visibility(file, all_false=False, all_true=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Set visibility of parkingAreaReroute elements in XML file.")
     parser.add_argument("file", help="The XML file to modify.")
+    parser.add_argument("--true-count", type=int,
+                        help="Number of parkingAreaReroute elements to set to true for each rerouter.")
     parser.add_argument("--all-false", action="store_true", help="Set all visibility attributes to false.")
     parser.add_argument("--all-true", action="store_true", help="Set all visibility attributes to true.")
 
@@ -66,7 +78,14 @@ if __name__ == "__main__":
         print("Error: --all-false and --all-true cannot be used together.")
         sys.exit(1)
 
+    # Determine which visibility mode to apply
     if args.all_false or args.all_true:
         set_visibility(args.file, all_false=args.all_false, all_true=args.all_true)
     else:
-        set_visibility(args.file)
+        if args.true_count is not None:
+            if args.true_count < 0:
+                print("Error: --true-count cannot be negative.")
+                sys.exit(1)
+            set_visibility(args.file, true_count=args.true_count)
+        else:
+            set_visibility(args.file)
